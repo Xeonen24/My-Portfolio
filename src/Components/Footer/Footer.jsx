@@ -1,28 +1,18 @@
 import React from 'react';
-const Header = () => {
+import { Link } from 'react-router-dom';
+
+const Footer = () => {
     return (
         <div className="footer">
             <footer>
                 <div class="footer-content">
-                    <div class="footer-section about">
-                        <h2>About Me</h2>
-                        <p>Write a brief description of yourself and your skills.</p>
-                    </div>
-                    <div class="footer-section contact">
-                        <h2>Contact Me</h2>
-                        <ul>
-                            <li><a href="#">Email</a></li>
-                            <li><a href="#">Phone</a></li>
-                            <li><a href="#">Address</a></li>
-                        </ul>
-                    </div>
                     <div class="footer-section links">
                         <h2>Quick Links</h2>
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About Me</a></li>
-                            <li><a href="/contact">Contact Me</a></li>
-                            <li><a href="/resume">Resume</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about-me">About me</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/resume">Resume</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -35,4 +25,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Footer;

@@ -6,6 +6,7 @@
 
 .header {
     display: flex;
+    justify-content: center;
     background-color: rgb(255, 115, 115);
 }
 
@@ -30,5 +31,10 @@
 }
 
 .header li a:hover {
-    background-color: wheat;
+    background-color: white;
+}
+
+.header li.active a {
+  background-color:rgb(224, 224, 224);
+  transform: scale(1.1);
 }

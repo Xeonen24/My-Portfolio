@@ -7,12 +7,13 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 
 const App = () => {
+  
   return (
     <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-me" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
