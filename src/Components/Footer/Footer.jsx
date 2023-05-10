@@ -8,17 +8,16 @@ const Footer = () => {
                 <div class="footer-content">
                     <div class="footer-section links">
                         <h2>Quick Links</h2>
-                        <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/about-me">About me</Link></li>
-                            <li><Link to="/contact">Contact</Link></li>
-                            <li><Link to="/resume">Resume</Link></li>
-                        </ul>
+                     <ul>
+                        <li><Link to="https://github.com/Xeonen24" target="_blank" rel="noopener noreferrer">GitHub</Link></li>
+                       <li><Link to="https://www.linkedin.com/in/alpesh-pote-9aa9961b5/" target="_blank" rel="noopener noreferrer">LinkedIn</Link></li>
+                      <li><Link to="mailto:captainsparkelz32@gmail.com" target="_blank" rel="noopener noreferrer">Email-Me</Link></li>
+                    </ul>
                     </div>
                 </div>
                 <div class="footer-bottom">
                     <p>Copyright © 2023
-                        <a href="#">Your Name</a> | All Rights Reserved</p>
+                        <a href="#">Alpesh Pote</a> | All Rights Reserved</p>
                 </div>
             </footer>
         </div>
